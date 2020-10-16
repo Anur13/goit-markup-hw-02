@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalise.css">
+    <link rel="stylesheet" href="./css/style.css" >
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/">WebStudio</a>
-    
+        <nav class="nav">
+            <a class="logo" href="/"><span>Web</span>Studio</a>
+            
             <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li ><a href="/index.html">Студия</a></li>
+                <li class="nav current "><a href="">Портфолио</a></li>
+                <li></li> <a href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="header-contacts">
             <li>
                 <a href="info@devstudio.com">info@.devstuido.com</a>
             </li>
-            <li><a href="tel:+380991111111">099 111 11 11</a></li>
+            <li><a href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -28,42 +31,17 @@
         <!--Кнопки - виды продуктов-->
         <section>
             <h2>Виды продуктов</h2>
-            <ul>
-                <div>
-                <li>
-                    <input type="button" id="Все">
-                    <label for="Все">Все</label>
-                </li>
-                </div>
-                <div>
-                    <li>
-                        <input type="button" id="Веб-сайты">
-                        <label for="Веб-сайты">Веб-сайты</label>
-                    </li>
-                </div>
-                <div>
-                    <li>
-                        <input type="button" id="Приложения">
-                        <label for="Приложения">Приложения</label>
-                    </li>
-                </div>
-                
-                <div>
-                    <li>
-                        <input type="button" id="Дизайн">
-                        <label for="Дизайн">Дизайн</label>
-                    </li>
-                </div>
-                <div>
-                    <li>
-                        <input type="button" id="Маркетинг">
-                        <label for="Маркетинг">Маркетинг</label>
-                    </li>
-                </div>
-            </ul>
-        </section>
+            <div>
+                <button class="button" type="button">Все</button>
+                <button class="button" type="button">Веб-сайты</button>
+                <button class="button" type="button">Приложения</button>
+                <button class="button" type="button">Дизайн</button>
+                <button class="button" type="button">Маркетинг</button>
+            </div>
+            
+                    
         <!--Продукты-->
-        <section>
+            <h2>Продукты</h2>
             <ul class="product-list">
                 <li class="product">
                     <img class="product-image" src="./images_homework2/технокряк.png" alt="Картинка веб-сайта" width="370">
@@ -97,8 +75,8 @@
                 </li>
                 <li class="product">
                     <img src="./images_homework2/limited_edition.png" alt="Фотография книги" width="370">
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
+                    <h3  class="product-header">Издание Limited Edition</h3>
+                    <p class="product-type">Дизайн</p>
                 </li>
                 <li class="product">
                     <img class="product-image" src="./images_homework2/lab.png" alt="Фотография ярлыка" width="370">
@@ -114,14 +92,15 @@
 
         </section>
     </main>
-<footer>
+<footer class="footer">
     <h2>
-        <a href="">WebStudio</a>
+        <a class="logo" href=""><span>Web</span>Studio</a>
     </h2>
-    <address>г. Киев, пр-т Леси Украинки, 26</address>
-    <address>
+    <address class="footer-contacts">
+        <p>г. Киев, пр-т Леси Украинки, 26</p>
         <a href="info@example.com">info@example.com</a><br />
         <a href="tel:+380991111111">099 111 11 11</a>
+        
     </address>
 </footer>
 

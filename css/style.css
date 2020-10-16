@@ -1,0 +1,156 @@
+/* primary colour #212121 */
+/* secondary colour #757575 */
+/* tertiary colour #2196F3 */
+
+:root {
+  --primary-text-colour: #757575;
+  --secondary-text-colour: #212121;
+  --buttons-links-colour: #2196f3;
+  --background-colour: #ffffff;
+}
+
+.logo {
+  font-size: 26px;
+  font-family: Raleway;
+  color: var(--secondary-text-colour);
+}
+/* Header and navigation*/
+ul {
+  list-style: none;
+}
+
+h2,
+h3 {
+  color: var(--secondary-text-colour);
+}
+body,
+.nav {
+  font-family: Roboto;
+  color: var(--primary-text-colour);
+}
+
+.nav,
+.header-contacts {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.nav span {
+  color: var(--buttons-links-colour);
+}
+.nav ul {
+  color: var(--secondary-text-colour);
+  .nav.current;
+}
+.nav.current {
+  color: var(--buttons-links-colour);
+}
+.nav li:focus,
+.nav li:hover,
+.header-email:hover,
+.header-email:focus {
+  color: var(--buttons-links-colour);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--buttons-links-colour);
+  color: var(--secondary-text-colour);
+}
+a:active {
+  color: var(--buttons-links-colour);
+}
+.header-hero {
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  text-align: center;
+  color: var(--background-colour);
+}
+.header-email {
+  color: var(--buttons-links-colour);
+}
+
+.hero-section {
+  width: 1680px;
+  background-color: #2f303a;
+}
+
+.order-button {
+  background-color: var(--buttons-links-colour);
+  width: 200px;
+  color: var(--background-colour);
+}
+
+.qualities-header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.qualities-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-header {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.27;
+  text-align: center;
+}
+
+.names-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--secondary-text-colour);
+}
+.names-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.product-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.product-type {
+  color: var(--secondary-text-colour);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.button {
+  width: 73px;
+  color: var(--secondary-text-colour);
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #f5f4fa;
+  font-weight: 500;
+}
+
+.footer-contacts {
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: var(--background-colour);
+}
+.footer span {
+  color: var(--buttons-links-colour);
+}
+.footer a {
+  color: var(--background-colour);
+}
+.contacts-footer > a {
+  color: rgb(255, 255, 255, 60%);
+}
+a {
+  color: inherit;
+}
