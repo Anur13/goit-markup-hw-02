@@ -25,7 +25,7 @@ h3 {
 }
 body,
 .nav {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: var(--primary-text-colour);
 }
 
@@ -42,11 +42,13 @@ body,
   color: var(--secondary-text-colour);
   .nav.current;
 }
+
 .nav.current {
   color: var(--buttons-links-colour);
 }
-.nav li:focus,
-.nav li:hover,
+
+.nav a:hover,
+.nav a:focus,
 .header-email:hover,
 .header-email:focus {
   color: var(--buttons-links-colour);
@@ -55,7 +57,7 @@ body,
 .button:hover,
 .button:focus {
   background-color: var(--buttons-links-colour);
-  color: var(--secondary-text-colour);
+  color: var(--background-colour);
 }
 a:active {
   color: var(--buttons-links-colour);
@@ -118,7 +120,6 @@ a:active {
   line-height: 2;
 }
 .product-type {
-  color: var(--secondary-text-colour);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -153,4 +154,5 @@ a:active {
 }
 a {
   color: inherit;
+  text-decoration: none;
 }
