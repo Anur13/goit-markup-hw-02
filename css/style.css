@@ -48,8 +48,8 @@ body,
 
 .nav a:hover,
 .nav a:focus,
-.header-email:hover,
-.header-email:focus {
+.header-contacts a:hover,
+.header-contacts a:focus {
   color: var(--buttons-links-colour);
 }
 
