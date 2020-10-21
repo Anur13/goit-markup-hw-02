@@ -68,9 +68,6 @@ a:active {
   text-align: center;
   color: var(--background-colour);
 }
-.header-email {
-  color: var(--buttons-links-colour);
-}
 
 .hero-section {
   width: 1680px;
