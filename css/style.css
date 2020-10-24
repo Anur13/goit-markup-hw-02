@@ -33,6 +33,7 @@ body,
 .header-contacts {
   font-size: 14px;
   line-height: 16px;
+  font-weight: 500;
 }
 
 .nav span {
@@ -70,7 +71,6 @@ a:active {
 }
 
 .hero-section {
-  width: 1680px;
   background-color: #2f303a;
 }
 
